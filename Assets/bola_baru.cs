@@ -5,7 +5,7 @@ using UnityEngine;
 public class bola_baru : MonoBehaviour
 {
     public int speed= 10;
-    private Rigidbody2D rb2d;
+    public Rigidbody2D rb2d;
     
     void GoBall(){
     float rand = Random.Range(0, 2);
